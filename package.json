@@ -1,0 +1,53 @@
+{
+  "_from": "@ionic-native/star-prnt",
+  "_id": "@ionic-native/star-prnt@5.30.0",
+  "_inBundle": false,
+  "_integrity": "sha512-28LTNTo/ihOfU6qpRAIkkJ9bK2/mUJ004RC2ooFLCCwnsp/x/BLdrZYAzFSnGUxZigMOh8GtTuYkUhwaWP1RDA==",
+  "_location": "/@ionic-native/star-prnt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@ionic-native/star-prnt",
+    "name": "@ionic-native/star-prnt",
+    "escapedName": "@ionic-native%2fstar-prnt",
+    "scope": "@ionic-native",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@ionic-native/star-prnt/-/star-prnt-5.30.0.tgz",
+  "_shasum": "1eede3150f8197b17a13769a713cc5efb5b1a60c",
+  "_spec": "@ionic-native/star-prnt",
+  "_where": "/Users/dave/Documents/code/apps/pos",
+  "author": {
+    "name": "ionic"
+  },
+  "bugs": {
+    "url": "https://github.com/ionic-team/ionic-native/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/cordova": "latest"
+  },
+  "deprecated": false,
+  "description": "Ionic Native - Native plugins for ionic apps",
+  "homepage": "https://github.com/ionic-team/ionic-native#readme",
+  "license": "MIT",
+  "module": "index.js",
+  "name": "@ionic-native/star-prnt",
+  "peerDependencies": {
+    "rxjs": "^5.5.0 || ^6.5.0",
+    "@ionic-native/core": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/ionic-native.git"
+  },
+  "typings": "index.d.ts",
+  "version": "5.30.0"
+}
