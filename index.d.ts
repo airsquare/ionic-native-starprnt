@@ -73,6 +73,25 @@ export interface RasterObj extends PrintObj {
      */
     paperWidth?: number;
 }
+export interface base64ImageObj {
+    /**
+     * Image URI to print, this can be obtained via the camera or photo library or as a static resource saved on the phone memory
+     */
+    base64Image: string;
+    /**
+     * Image width (Units: Dots) defaults to 576
+     */
+    width?: number;
+    /**
+     *  Sends a PartialCutWithFeed command to the printer, defaults to true
+     */
+    cutReceipt?: boolean;
+    /**
+     * sends a appendPeripheral command to the printer for channels No1 and No2 - Defaults to true
+     */
+    openCashDrawer?: boolean;
+}
+
 export interface ImageObj {
     /**
      * Image URI to print, this can be obtained via the camera or photo library or as a static resource saved on the phone memory
