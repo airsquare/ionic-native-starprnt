@@ -91,7 +91,6 @@ export interface base64ImageObj {
      */
     openCashDrawer?: boolean;
 }
-
 export interface ImageObj {
     /**
      * Image URI to print, this can be obtained via the camera or photo library or as a static resource saved on the phone memory

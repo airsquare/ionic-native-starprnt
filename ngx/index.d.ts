@@ -1,6 +1,5 @@
 import { IonicNativePlugin } from '@ionic-native/core';
 import { Observable } from 'rxjs';
-import * as ɵngcc0 from '@angular/core';
 export interface Printer {
     /**
      * Printer model name and model number
@@ -811,8 +810,7 @@ export declare class StarPRNT extends IonicNativePlugin {
      * @param {ImageObj} imageObj  uri:string, paperWidth?:number, cutReceipt?:boolean, openCashDrawer?:boolean
      * @return {Promise<any>} Success! if printed correctly or error message string returned by the SDK.
      */
-    printBase64Image(port: string, emulation: string, base64ImageObj: base64ImageObj): Promise<any>;
-
+     printBase64Image(port: string, emulation: string, base64ImageObj: base64ImageObj): Promise<any>;
     printImage(port: string, emulation: string, imageObj: ImageObj): Promise<any>;
     /**
      * sends an appendPeripheral command to the printer for channels No1 and No2
@@ -847,8 +845,4 @@ export declare class StarPRNT extends IonicNativePlugin {
      * @return {Promise<any>} Success! if connected or error message string returned by the SDK.
      */
     disconnect(): Promise<any>;
-    static ɵfac: ɵngcc0.ɵɵFactoryDef<StarPRNT, never>;
-    static ɵprov: ɵngcc0.ɵɵInjectableDef<StarPRNT>;
 }
-
-//# sourceMappingURL=index.d.ts.map
